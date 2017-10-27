@@ -31,9 +31,9 @@ public class Snake_Fx_2 extends Application implements Interface_Snake_Fx_2
 		_RandomPoint.set_Interface_Grid(_Grid);
 		_RandomPoint.set_Interface_SnakeBody(_SnakeBody);
 
-		launch();
+		System.out.println("Start Game");
 		
-	
+		launch();
 	}
 
 	@Override
@@ -62,10 +62,4 @@ public class Snake_Fx_2 extends Application implements Interface_Snake_Fx_2
 		Snake_Fx_2_stage.show();
 
 	}
-
-	// **********************************
-	// ******* Gettery i Settery ********
-	// **********************************
-
-
 }
