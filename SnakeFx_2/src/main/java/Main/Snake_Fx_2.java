@@ -32,6 +32,8 @@ public class Snake_Fx_2 extends Application implements Interface_Snake_Fx_2
 		_RandomPoint.set_Interface_SnakeBody(_SnakeBody);
 
 		launch();
+		
+	
 	}
 
 	@Override
